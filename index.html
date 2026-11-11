@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For UK content creators who are sole traders: payouts grossed up, currency converted and gifted products recorded for your MTD update.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,38 +69,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Creator Quarters</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Creator Quarters</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Your quarterly MTD update, built from what the platforms really paid you</h1>
-    <p class="sub">For UK creators who are sole traders: YouTube, Patreon, Twitch, TikTok, affiliate and brand income turned into one quarterly summary for Making Tax Digital.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For UK creators who are sole traders</p>
+      <h1 class="rise" style="--i:1" data-len="long">Your quarterly MTD update, built from what the platforms really paid you</h1>
+      <p class="rise" style="--i:2">For UK creators who are sole traders: YouTube, Patreon, Twitch, TikTok, affiliate and brand income turned into one quarterly summary for Making Tax Digital.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="34" fill="#0a1524" font-weight="600">Quarterly summary</text><line x1="110" y1="210" x2="1090" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,282 148,292 164,272" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="300" font-size="30" fill="#0a1524">Gross income</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,382 148,392 164,372" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="400" font-size="30" fill="#0a1524">Gifted products</text><rect x="130" y="460" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="500" font-size="30" fill="#0a1524">sole traders</text><rect x="130" y="560" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="600" font-size="30" fill="#0a1524">to pounds</text><rect x="720" y="260" width="360" height="400" fill="#dfe8f7" rx="20" /><text x="750" y="320" font-size="30" fill="#0a1524" font-weight="600">YouTube</text><rect x="760" y="470" width="48" height="150" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="835" y="520" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="910" y="410" width="48" height="210" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="985" y="540" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>UK creators</dd></div>
+      <div><dt>Summary</dt><dd>Quarterly summary</dd></div>
+      <div><dt>Income</dt><dd>Converted to pounds</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Gross income</b><span>Platform payouts shown before their fees.</span><br><a class="btn" href="price.html" data-ev="feature_gross">I need this</a></div>
-      <div class="card"><b>Pounds</b><span>Dollar and euro payouts converted to sterling.</span><br><a class="btn" href="price.html" data-ev="feature_currency">I need this</a></div>
-      <div class="card"><b>Gifted products</b><span>Brand gifts recorded at their value on the day.</span><br><a class="btn" href="price.html" data-ev="feature_gifts">I need this</a></div>
-      <div class="card"><b>Quarterly summary</b><span>One summary per quarter, ready before the 7th.</span><br><a class="btn" href="price.html" data-ev="feature_quarter">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Gross income</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#b9c3d2" stroke-width="4" /><rect x="170" y="350" width="70" height="120" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="290" y="270" width="70" height="200" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="380" width="70" height="90" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="230" width="70" height="240" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Gross income</h3><p>Platform payouts shown before their fees.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_gross">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="120" font-size="30" fill="#0a1524" font-weight="600">Pounds</text><rect x="60" y="180" width="280" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="180" width="280" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="250" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="250" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="259" x2="450" y2="259" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="320" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="320" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="329" x2="450" y2="329" fill="none" stroke="#12397a" stroke-width="3" /><rect x="90" y="390" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="390" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="399" x2="450" y2="399" fill="none" stroke="#dde2ea" stroke-width="3" /><polygon points="430,300 460,340 430,380" fill="#12397a" /></svg></div>
+        <h3>Pounds</h3><p>Dollar and euro payouts converted to sterling.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_currency">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Gifted products</text><rect x="140" y="210" width="420" height="22" fill="#dde2ea" rx="8" /><rect x="140" y="265" width="360" height="22" fill="#b9c3d2" rx="8" /><rect x="140" y="320" width="280" height="22" fill="#dde2ea" rx="8" /><rect x="140" y="375" width="390" height="22" fill="#b9c3d2" rx="8" /><circle cx="560" cy="470" r="42" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="542,470 554,484 582,450" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Gifted products</h3><p>Brand gifts recorded at their value on the day.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_gifts">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Quarterly summary</text><rect x="130" y="230" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,252 148,262 164,242" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="240" width="160" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="330" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="340" width="230" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="430" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,452 148,462 164,442" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="440" width="300" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Quarterly summary</h3><p>One summary per quarter, ready before the 7th.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_quarter">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A gaming creator in Leeds earns from YouTube in dollars, from Patreon after its fee, from Twitch subs and from two brand deals, and got a headset from a sponsor. The bank feed shows only net amounts landing on different days. Now each quarter the payouts are grossed up, converted to pounds, the headset is entered at its value, and the quarterly update is ready a week before the deadline.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A gaming creator in Leeds earns from YouTube in dollars, from Patreon after its fee, from Twitch subs and from two brand deals, and got a headset from a sponsor. The bank feed shows only net amounts landing on different days. Now each quarter the payouts are grossed up, converted to pounds, the headset is entered at its value, and the quarterly update is ready a week before the deadline.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="170" x2="1000" y2="170" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="170" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">YouTube</text><circle cx="600" cy="170" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Patreon</text><circle cx="960" cy="170" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">pounds</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="34" fill="#0a1524" font-weight="600">quarterly update</text><rect x="170" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="470" width="64" height="64" fill="#12397a" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="350" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="440" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="170" y="580" width="520" height="24" fill="#dde2ea" rx="12" /><rect x="170" y="630" width="360" height="24" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>From April 2026 sole traders whose income is above the Making Tax Digital threshold send quarterly updates, and from April 2027 that income threshold is lowered, so more creators fall under it. For a creator, a quarter means income from many places at once.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>From April 2026 sole traders whose income is above the Making Tax Digital threshold send quarterly updates, and from April 2027 that income threshold is lowered, so more creators fall under it. For a creator, a quarter means income from many places at once.</p>
     <p>Platforms pay you net of their fees, often in dollars or euros, and on their own schedule. Answers to common questions are in the <a href="#faq" data-ev="click_opis_faq">questions section</a>, and you can start <a href="#start" data-ev="click_opis_start">at the bottom of the page</a>.</p>
     <p>Creator Quarters does one narrow job: it turns what the platforms paid you in a quarter into the income figures your Making Tax Digital update needs.</p>
     <p>A bank feed sees only the net amount that reached your account. Your income is the gross amount before the platform took its share, and the fee is a separate cost.</p>
@@ -111,29 +145,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>If you already use an accountant, they can take the quarterly summary as it is instead of chasing statements from each platform.</p>
     <p>To start, you only need the payout statements of your platforms for the last quarter and a list of gifted products.</p>
     <p>Creator Quarters prepares the quarterly figures; your tax return and any tax advice stay with you or your accountant.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>UK content creators who are sole traders and must send quarterly Making Tax Digital updates.</p>
-    <h3>Why not use the bank feed?</h3>
-    <p>The bank sees net payouts. Your income is the gross amount before platform fees, plus gifted products.</p>
-    <h3>Does it give tax advice?</h3>
-    <p>No. It prepares the quarterly income figures; advice stays with you or your accountant.</p>
-    <h3>Can I use it now?</h3>
-    <p>Not yet. The service is being prepared, and we are checking whether UK creators need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>UK content creators who are sole traders and must send quarterly Making Tax Digital updates.</p></div>
+      <div class="split flip"><h3>Why not use the bank feed?</h3><p>The bank sees net payouts. Your income is the gross amount before platform fees, plus gifted products.</p></div>
+      <div class="split flip"><h3>Does it give tax advice?</h3><p>No. It prepares the quarterly income figures; advice stays with you or your accountant.</p></div>
+      <div class="split flip"><h3>Can I use it now?</h3><p>Not yet. The service is being prepared, and we are checking whether UK creators need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Get started</h2>
-    <p><label>How many platforms pay you<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–2</option><option>3–5</option><option>6 or more</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Get started</h2>
+    </div>
+    <div class="tile stack">
+      <label>How many platforms pay you<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–2</option><option>3–5</option><option>6 or more</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Creator Quarters</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Creator Quarters prepares quarterly income figures for Making Tax Digital; it is not an accountant and does not give tax advice.</p>
+  <p>Creator Quarters prepares quarterly income figures for Making Tax Digital; it is not an accountant and does not give tax advice.</p>
 </div></footer>
 
 </body>
